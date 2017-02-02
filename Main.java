@@ -21,6 +21,9 @@ public class Main {
        if ("+".equals(operation)) {
            answer = add(a, b);
            System.out.println("Answer is: " + answer);
+	else if ("-".equals(operation)) {
+           answer = sub(a, b);
+           System.out.println("Answer is: " + answer);
        }else if("/".equals(operation)){
            answer = a / b;
            System.out.println("Answer is: " + answer);
